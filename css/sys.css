@@ -1,0 +1,57 @@
+.menu{
+  float: left;
+  width: 12%;
+  height: auto;
+  padding: 20px;
+}
+.container{
+  float: left;
+  width: 85%;
+  height: auto;
+}
+#menuico{
+  width: 40px;
+  float: left;
+  display: block;
+}
+#menuico:hover{
+  cursor: pointer;
+}
+input[type="button"]{
+  margin-top: 20px;
+  width: 50%;
+  padding: 5px;
+}
+.products{
+  width: 12%;
+  height: 250px;
+  float: left;
+  margin: 40px;
+  padding: 20px;
+}
+h2{
+  font-size: 20px;
+  display: none;
+  margin: 60% auto;
+}
+h2:hover{
+  color: #0c3;
+  cursor: pointer;
+}
+.products img{
+  width: 100%;
+  height: 70%;
+}
+h5{
+  font-size: 16px;
+  margin-top: 40px;
+}
+.products h3{
+  margin-top: -20px;
+}
+.products:hover img,.products:hover h5,.products:hover h3{
+  display: none;
+}
+.products:hover h2{
+  display: block;
+}
